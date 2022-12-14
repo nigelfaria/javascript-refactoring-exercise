@@ -42,11 +42,7 @@ function sortByAmountThenName(txCount) {
 
 
 function validateTransactions(transactions) {
-    if(transactions === undefined) {
-        return false;
-    } 
-
-    return true;
+    return transactions !== undefined;
 }
 
 module.exports = processTransactions;
