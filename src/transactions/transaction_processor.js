@@ -1,7 +1,6 @@
 
 function processTransactions(transactions) {
 
-
     if (!validateTransactions(transactions)) {
         throw new Error("Undefined collection of transactions")
     }
